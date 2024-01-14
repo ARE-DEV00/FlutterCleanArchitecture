@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bbdaf21-0134-4292-8d93-ae4e61289a05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/presentation/utils/PlatformUtils.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/architecture.iml" beforeDir="false" afterPath="$PROJECT_DIR$/architecture.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/widget_test.dart" afterDir="false" />
-    </list>
+    <list default="true" id="7bbdaf21-0134-4292-8d93-ae4e61289a05" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +53,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "feature/add__default__clean__architecture",
+    "git-widget-placeholder": "feature/modify__macos__api",
     "io.flutter.reload.alreadyRun": "true",
     "last_opened_file_path": "/Users/ksh-sovoro/project/FlutterCleanArchitecture",
     "show.migrate.to.gradle.popup": "false"

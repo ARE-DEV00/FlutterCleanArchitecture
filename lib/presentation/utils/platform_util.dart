@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 
-class PlatformUtils {
+class PlatformUtil {
   static String determinePlatform() {
     if (kIsWeb) {
       return 'Web';

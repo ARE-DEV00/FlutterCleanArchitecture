@@ -1,4 +1,4 @@
-import 'package:architecture/presentation/utils/PlatformUtils.dart';
+import 'package:architecture/presentation/utils/platform_util.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:architecture/domain/usecase/sample_use_case.dart';
@@ -7,7 +7,7 @@ class Home extends ConsumerWidget {
   final textProvider = StateProvider<String>((ref) => "");
   final myProvider = FutureProvider.autoDispose((ref) {
     return SampleUseCase().createSample(
-        "Flutter Clean Architecture(${PlatformUtils.determinePlatform()})");
+        "Flutter Clean Architecture(${PlatformUtil.determinePlatform()})");
   });
 
   @override
@@ -22,7 +22,7 @@ class Home extends ConsumerWidget {
       appBar: AppBar(
         backgroundColor: Color(0xFFFFFFFF),
         title: Text(
-          "Flutter Clean Architecture(${PlatformUtils.determinePlatform()})",
+          "Flutter Clean Architecture(${PlatformUtil.determinePlatform()})",
           style: const TextStyle(
               fontSize: 30,
               fontWeight: FontWeight.bold,

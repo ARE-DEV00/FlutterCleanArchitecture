@@ -21,19 +21,17 @@ flutter run
 
 ## Dependencies
 
-다음은 이 프로젝트에서 사용된 Dependencies입니다:
+다음은 이 프로젝트에서 사용된 주요 Dependencies입니다:
 
-- **flutter:** Flutter 프레임워크.
-- **cupertino_icons:** ^1.0.2 - iOS 스타일 아이콘.
-**- **flutter_riverpod:** ^2.3.10 - 상태 관리.**
-**- **riverpod_annotation:** ^2.1.4 - Riverpod용 어노테이션.**
-**- **get_it:** ^7.6.0 - 의존성 주입을 위한 서비스 로케이터.**
-**- **injectable:** ^2.1.2 - 의존성 주입을 위한 코드 생성 라이브러리.**
-**- **dio:** ^5.3.3 - Dart용 HTTP 클라이언트.**
-**- **retrofit:** ^4.0.1 - 타입 안전 HTTP 클라이언트 생성기.**
+- **flutter_riverpod:** ^2.3.10 - 상태 관리.
+- **riverpod_annotation:** ^2.1.4 - Riverpod용 어노테이션.
+- **get_it:** ^7.6.0 - 의존성 주입을 위한 서비스 로케이터.
+- **injectable:** ^2.1.2 - 의존성 주입을 위한 코드 생성 라이브러리.
+- **dio:** ^5.3.3 - Dart용 HTTP 클라이언트.
+- **retrofit:** ^4.0.1 - 타입 안전 HTTP 클라이언트 생성기.
 - **logger:** any - 로깅 유틸리티.
 - **json_annotation:** ^4.8.1 - JSON 직렬화.
-**- **go_router:** ^14.2.1 - Flutter용 선언적 라우팅.**
+- **go_router:** ^14.2.1 - Flutter용 선언적 라우팅.
 
 ## 개발 Dependencies
 
